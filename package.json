@@ -98,5 +98,6 @@
   "devDependencies": {
     "less": "^3.7.1",
     "less-loader": "^4.1.0"
-  }
+  },
+  "homepage":"."
 }
