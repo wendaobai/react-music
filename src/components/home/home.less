@@ -1,0 +1,54 @@
+
+.wrap-home{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #fff;
+    .header{
+        background-color: #31C27C;
+        .top-bar{
+            height: 130/75rem;
+            background-color: #31C27C;
+            color: #fff;
+            font-size: 40/75rem;
+            display: flex;
+            align-items: center;
+            .iconfont,a{
+                font-size: 40/75rem;
+                color:#fff;
+            }
+            .title{
+                flex: 1;
+                display: flex;
+                justify-content: center; 
+            }
+            .userinfo,.more{
+                width: 145/75rem;
+                text-align: center;
+            }
+            .more{
+                width: 120/75rem;
+            }
+            .item-my,.item-music{
+                margin-right: 60/75rem;
+            }
+        }
+        .search-bar{
+            .am-search{
+                background-color: #31C27C;
+            }
+        }
+
+    }
+
+    .main{
+        flex: 1;
+        overflow-y:auto;
+        overflow-x: hidden;
+        
+    }
+   .footer{
+       height: 60px;
+      
+   }
+}
